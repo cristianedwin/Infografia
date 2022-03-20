@@ -109,8 +109,19 @@ img{
 }
 
 .calendar{
+    background-color: #FFFFFF;
     display: flex;
     margin-left: 20px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px 3px #E1E1E2;
+    transform: translate( 50%, 50%);
+    width: 100%;
+    padding: 10px;
+}
+
+.place{
+    width: 100%;
 }
 
 .tplace{
@@ -125,10 +136,12 @@ img{
 
 .date{
     margin-left: 35px;
+    width: 100%;
 }
 
 .type{
     margin-left: 35px;
+    width: 100%;
 }
 
 .button{
